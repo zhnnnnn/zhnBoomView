@@ -26,7 +26,7 @@
     UIImageView * boomView1 = [[UIImageView alloc]init];
     [self.view addSubview:boomView1];
     boomView1.image = [UIImage imageNamed:@"kobe"];
-    boomView1.frame = CGRectMake(10, 10, 100, 100);
+    boomView1.frame = CGRectMake(50, 50, 100, 100);
     self.boomView1 = boomView1;
     boomView1.userInteractionEnabled = YES;
     
